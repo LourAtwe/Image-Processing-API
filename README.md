@@ -3,7 +3,7 @@
 This project is a simple Image Processing API that lets you resize images dynamically through URL parameters.
 
 
-#📖 Notes
+# Notes📖
 
 Place your images in the images folder before making requests.
 
