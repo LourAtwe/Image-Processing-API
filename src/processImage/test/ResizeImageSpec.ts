@@ -1,5 +1,5 @@
 import express from "express";
-import { router as processImageRouter } from "../processImage.js";
+import { router as processImageRouter } from "../ResizeImage.js";
 import supertest from "supertest";
 
 const app = express();

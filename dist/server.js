@@ -1,5 +1,5 @@
 import express from "express";
-import { router as processImageRouter } from "./MyApi/processImage.js";
+import { router as processImageRouter } from "./processImage/ResizeImage.js";
 const app = express();
 app.get("/", (req, res) => {
     res.status(200).send("Server is working ✅");
