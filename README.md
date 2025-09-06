@@ -21,6 +21,6 @@ This project is a simple Image Processing API that lets you resize images dynami
 ### How to Run the Project🚀:
 npm run test--> for jasmine test
 npm run start--> start the server
-and then you can put any images with specific height and width using the PNG extension --> http://localhost:3001/processImage/api2/images?filename=Lour.png&width=700&height=600
-                                                                                  http://localhost:3001/processImage/api2/images?filename=italy.png&width=700&height=600
+and then you can put any images with specific height and width using the PNG extension --> /processImage/api2/images?filename=Lour.png&width=700&height=600
+                                                                                  /processImage/api2/images?filename=italy.png&width=700&height=600
 
