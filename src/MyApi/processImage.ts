@@ -3,12 +3,11 @@ import sharp from "sharp";
 import { promises as fs } from "fs";
 import path from "path";
 
-const app = express();
+const router = express.Router();
 const MyThumb = "images/thumb";    
 const MyFull = "images/full";  
 
-
-app.get("/api2/images", async (req, res) => {
+router .get("/api2/images", async (req, res) => {
   const filename =String(req.query.filename);
   const width = Number(req.query.width);
   const height = Number(req.query.height);
@@ -48,8 +47,4 @@ app.get("/api2/images", async (req, res) => {
     res.status(500).send("Errorrrrrr");
   }
 });
-
-app.listen(3001, () => {
-  console.log("🚀 Server started at http://localhost:3001");
-});
-export {app};
+export {router };

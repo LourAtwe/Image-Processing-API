@@ -1,5 +1,5 @@
 {
-    "spec_dir": "dist/test",
+    "spec_dir": "dist/MyApi/test",
     "spec_files": [
         "**/*Spec.js"
     ],

@@ -8,7 +8,7 @@
     "lint": "eslint . --ext .ts,.tsx --fix",
     "format": "prettier --write \"src/**/*.{ts,tsx,js,json,css,md}\"",
     "jasmine": "jasmine",
-    "dev": "nodemon dist/API",
+    "start": "nodemon dist/server",
     "test": "npm run build && npm run jasmine"
   },
   "keywords": [],
@@ -27,6 +27,7 @@
     "eslint": "^9.34.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
+    "jasmine": "^5.10.0",
     "jasmine-spec-reporter": "^7.0.0",
     "nodemon": "^3.1.10",
     "prettier": "^3.6.2",
@@ -37,7 +38,6 @@
   },
   "dependencies": {
     "express": "^5.1.0",
-    "jasmine": "^5.10.0",
     "sharp": "^0.34.3"
   }
 }
